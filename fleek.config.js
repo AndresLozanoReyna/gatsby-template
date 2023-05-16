@@ -1,4 +1,4 @@
-{
+module.exports = {
   "sites": [
     {
       "slug": "disgusting-acidic-jackal",
@@ -6,4 +6,4 @@
       "buildCommand": "npm run build"
     }
   ]
-}
+};
