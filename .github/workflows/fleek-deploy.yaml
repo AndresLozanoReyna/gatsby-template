@@ -1,4 +1,4 @@
-ame: Deploy site via Fleek
+name: Deploy site via Fleek
 on: push
 jobs:
   deploy-to-fleek:
