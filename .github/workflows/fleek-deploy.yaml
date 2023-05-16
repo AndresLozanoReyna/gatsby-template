@@ -1,4 +1,4 @@
-name: Deploy site via Fleek
+ame: Deploy site via Fleek
 on: push
 jobs:
   deploy-to-fleek:
@@ -12,9 +12,9 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 19.8.1
+          node-version: 18
       - name: Install Fleek CLI globally
-        run: npm i -g @fleekxyz/cli
+        run: npm i -g @fleekxyz/cli@0.4.0-dev.3
       - name: Install dependencies
         run: npm install
       - name: Build & deploy sites
