@@ -1,9 +1,9 @@
-module.exports = {
+{
   "sites": [
     {
-      "slug": "disgusting-acidic-jackal",
+      "slug": "gifted-red-gpu",
       "distDir": "public",
       "buildCommand": "npm run build"
     }
   ]
-};
+}

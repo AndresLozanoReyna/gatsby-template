@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 18
       - name: Install Fleek CLI globally
-        run: npm i -g @fleekxyz/cli@0.4.0-dev.3
+        run: npm i -g @fleekxyz/cli@0.4.0-dev.6
       - name: Install dependencies
         run: npm install
       - name: Build & deploy sites.
